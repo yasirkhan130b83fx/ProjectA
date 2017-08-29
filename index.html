@@ -37,7 +37,7 @@
                             <a class="nav-link" href="#address">Address</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">Follow Me</a>
+                            <a class="nav-link" href="follow-me">Follow Me</a>
                             </li>
                         </ul>
                     </div>
@@ -48,28 +48,21 @@
             <div class="col text-center">
                 <img class="rounded-circle mx-auto d-block" src="Image/Profile Picture.jpg" height="15%" width="25%" alt="This is my profile picture">
                 <h2 class="title" id="intro">Intro</h2>
-                <p>Hello! My name is 'Yasir', I am a 20 year old, computer science student.</p>
+                <p id="INTRO"></p>
             </div>
         </div>
         <div class="row justify-content-center align-items-center">
             <div class="col-11 text-center">
                 <h2 class="title" id="about-me">About Me</h2>
-                <p>I am interested generally in programimng and working in I.T Industry. I am excellent learner and can easily adopt to new technologies. I am more focused on UX than UI.</p>
+                <p id="ABOUT-ME"></p>
                 <h6>Favourite Quote:</h6>
-                <q cite="Steve Jobs">
-                    Everybody should learn how to program a computer, because it teaches you how to think.
-                </q>
+                <q id="FAV-QUOTE"></q>
             </div>
         </div>
         <div class="row justify-content-center align-items-center">
             <div class="col-11">
                 <h2 class="text-center title" id="education">Education</h2>
-                [University of Karachi] — [BCS]	<span class="float-right">[2015] — [...]</span>	
-                <br/>
-                [Sir Adamjee Institue] — [HSC]	<span class="float-right">[2015]</span>
-                <br/>	
-                [P.M Public School] — [SSC]	<span class="float-right">[2013]</span>	
-                
+                <div id="EDUCATION"></div>
             </div>
         </div>
         <div class="row justify-content-center align-items-center">
@@ -77,31 +70,31 @@
                 <h2 class="text-center title" id="skills">Skills</h2>
                 <div class="row justify-content-center align-items-center">
                     <div class="col-1">
-                        <h6 class="text-center">HTML</h6>
+                        <h6 id="SKILL1" class="text-center"></h6>
                     </div>
                     <div class="col-11">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="width: 92%"></div>
+                            <div id="SKILL1-PROG" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center align-items-center">
                     <div class="col-1">
-                        <h6 class="text-center">CSS</h6>
+                        <h6 id="SKILL2" class="text-center"></h6>
                     </div>
                     <div class="col-11">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100" style="width: 81%"></div>
+                            <div id="SKILL2-PROG" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center align-items-center">
                     <div class="col-1">
-                        <h6 class="text-center">JavaScript</h6>
+                        <h6 id="SKILL3" class="text-center"></h6>
                     </div>
                     <div class="col-11">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style="width: 82%"></div>
+                            <div id="SKILL3-PROG" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -158,55 +151,34 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-10">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.4965877354816!2d67.06315291315842!3d24.915147549203628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f16c45ae1a7%3A0xfcdafa80d47ca357!2s1050+Azizabad+Main+Rd%2C+Karachi%2C+Pakistan!5e0!3m2!1sen!2s!4v1503897959214"></iframe>
+                            <iframe id="ADDRESS-IFRAM" class="embed-responsive-item" src=""></iframe>
                         </div>
                     </div>
                     <div class="col-2">
-                        <address>
-                            <strong>House # 1026/2,</strong><br>
-                            Azizabad Block # 02,<br>
-                            F.B Area,<br>
-                            Karachi,<br>
-                            Sindh,<br>
-                            Pakistan.<br>
-                        </address>
+                        <address id="ADRESS-TEXT"></address>
                     </div>
                 </div>
             </div>
-            
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
+        <div class="row justify-content-center align-items-center">
+            <div class="col-11 text-center">
+                    <h2 class="text-center title" id="follow-me">Follow Me</h2>
+                    <a href="https://www.facebook.com/yasir.rais.110" target="_blank" class="badge">
+                        <img class="rounded-circle mx-auto d-block" src="Image/FB Logo.png" height="100px" width="100px" alt="Facebook acount link">
+                    </a>
+                    <a href="https://github.com/yasirrais110" target="_blank" class="badge">
+                        <img class="rounded-circle mx-auto d-block" src="Image/GitHub Logo.png" height="100px" width="100px" alt="GitHub acount link">
+                    </a>
+            </div>
+        </div>
+        
     </div>
 
 
     <script src="Bootstrap/jquery-3.2.1.slim.min.js"></script>
     <script src="Bootstrap/popper.min.js"></script>
     <script src="Bootstrap/bootstrap.min.js"></script>
+    <script src="main_code.js"></script>
 </body>
 </html>
